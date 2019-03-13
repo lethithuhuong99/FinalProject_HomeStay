@@ -1,12 +1,4 @@
-.slogan{
-  position: absolute;
-  top: 260px;
-  left: 270px;
-  font-size: 100px;
-  color: #fff;
-  font-weight: bold;
-  z-index: 3;
-}
+
 
 #icon{
   position: absolute;
@@ -26,6 +18,7 @@
   padding-left: 45px;
   z-index: 1;
   color: black;
+  border: 1px solid #484848;
 }
 
 .container {
@@ -39,12 +32,7 @@
   width: 600px;
   height: 80px;
   border: 0px solid #4286f4;
-  border-bottom color: #000;
-}
-
-img {
-  width: 100%;
-  height: auto;
+  border-bottom color: #484848;
 }
 
 li {
@@ -52,19 +40,19 @@ li {
 }
 
 li a:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #484848;
   border-width:medium;
 }
 
 li a {
-  color: #fff;
+  color: #484848;
   text-align:justify;
   padding: 10px 20px ;
   text-decoration: none;
 }
 
 #home{
-    color: #fff;
+    color: #D10707;
     position: absolute;
     top: 25px;
     left: 10px;
