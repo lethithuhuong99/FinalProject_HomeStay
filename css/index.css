@@ -15,8 +15,8 @@ li {
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 500px;
-  margin-right: 500px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 figure {
@@ -71,13 +71,13 @@ figcaption {
   flex-flow: row wrap;
   align-content: flex-start;
   justify-content: space-between;
-  padding-left: 460px;
-  padding-right: 500px;
+  padding-left: 260px;
+  padding-right: 300px;
 }
 
 .all-bottom {
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 300px;
+  padding-right: 300px;
   margin-bottom: 20px;
 }
 
