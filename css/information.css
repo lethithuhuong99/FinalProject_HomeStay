@@ -1,12 +1,10 @@
 .information {
-  width: 60%;
+  width: 65%;
   float: right;
 }
 .image {
-  width: 39%;
+  width: 34%;
   float: left;
-
-  /* position: fixed; */
 }
 
 .day-trip {
@@ -75,7 +73,7 @@ hr {
   max-height: 100%;
 }
 #upcoming-availability {
-  margin-top: -60px;
+  margin-top: 0px;
   border: 1px;
   border-color: #c7ced8;
   border-style: solid;
@@ -100,6 +98,10 @@ hr {
   margin: auto;
 }
 
+.slideshow-container img{
+  width: 500px;
+  height: 300px;
+}
 
 /* Hide the images by default */
 .mySlides {
