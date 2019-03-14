@@ -1,3 +1,7 @@
+ul {
+    list-style-type: none;
+}
+
 .footer {
     max-width: 1080px;
     padding: 48px 24px;
@@ -5,8 +9,29 @@
     border: 2px solid black;
 }
 
-ul {
-    list-style-type: none;
+.all-top {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.all-top .heading {
+    margin-bottom: 24px;    
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color: #484848;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 18px;
+}
+
+.all-top figcaption {
+    overflow-wrap: break-word;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.333em;
 }
 
 figure {
@@ -17,68 +42,6 @@ figure {
     background-color: #006a70;
     padding: 0px 4px;
     margin: 0px;
-}
-
-figcaption {
-    overflow-wrap: break-word;
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 1.333em;
-}
-
-#container {
-    min-height:100%;
-    position:relative;
-}
-
-#header {
-    background:#ff0;
-    padding:10px;
-}
-
-#body {
-    padding:10px;
-    padding-bottom:60px;   /* Height of the footer */
-}
-
-.heading {
-    color: #000;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.all-top {
-    display: flex;
-    flex-flow: row wrap;
-    align-content: flex-start;
-    justify-content: space-between;
-}
-
-.information .icon {
-    display: flex;
-    flex-flow: row wrap;
-    align-content: flex-start;
-    padding-bottom: 24px;
-}
- 
-.icon i {
-    font-size: 18px;
-    width: 18px;
-    height: 18px;
-    padding-left: 8px;
-    padding-right: 8px;
-    color: #767676;
-}
-
-.all-top .heading {
-    margin-bottom: 24px;    
-    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    color: #484848;
-    font-size: 14px;
-    font-weight: 800;
-    line-height: 18px;
 }
 
 .goldenhost, .discover, .hosting, .information {
@@ -100,3 +63,18 @@ figcaption {
     line-height: 18px;
 }
 
+.information .icon {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    padding-bottom: 24px;
+}
+
+.information .icon i {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #767676;
+}
