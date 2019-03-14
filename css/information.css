@@ -5,6 +5,7 @@
 .image {
   width: 30%;
   float: left;
+
   /* position: fixed; */
 }
 
@@ -24,10 +25,11 @@ hr {
 }
 
 .flex-item{
-  padding: 5px;
+  padding: 0;
   width: 200px;
   height: 150px;
-  margin-top: 10px;
+  margin: 10px;
+  margin-left: 10px;
 
   line-height: 150px;
   color: white;
@@ -51,6 +53,12 @@ hr {
   justify-content: space-around;
 }
 
+.flex-container img {
+  width: 500px;
+  height: 150px;
+
+}
+
 .feedback img{
   border-radius: 50%;
   width: 10%;
@@ -67,16 +75,16 @@ hr {
   max-height: 100%;
 }
 #upcoming-availability {
-
+  margin-top: -60px;
   border: 1px;
   border-color: #c7ced8;
   border-style: solid;
 }
 #left {
-  width: 50%;
+  width: 45%;
   float: left;
 }
 #right {
-  width: 50%;
+  width: 45%;
   float: right;
 }
