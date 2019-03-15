@@ -17,12 +17,21 @@ ul {
 }
 
 .all-top .heading {
-    margin-bottom: 24px;    
+    margin-bottom: 24px;
     font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     color: #484848;
     font-size: 14px;
     font-weight: 800;
     line-height: 18px;
+}
+
+.all-bottom .heading {
+  color: #767676;
+  margin-bottom: 4px;
+  font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
 }
 
 .all-top figcaption {
@@ -77,4 +86,13 @@ figure {
     padding-left: 8px;
     padding-right: 8px;
     color: #767676;
+}
+
+.all-bottom #logo {
+  color: #767676;
+  padding-right: 20px;
+}
+
+.all-bottom #copyright {
+  color: #767676;
 }
