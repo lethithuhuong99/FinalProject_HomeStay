@@ -9,7 +9,6 @@
   display: -webkit-flex;
   display: flex;
 
-  -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
 
@@ -31,4 +30,8 @@
 
 .recommend img {
   max-width: 100%
+}
+
+.where-we-will-be {
+  max-width: 360px;
 }
