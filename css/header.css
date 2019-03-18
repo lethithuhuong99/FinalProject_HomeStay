@@ -55,6 +55,7 @@ ul {
 .top-left .logo {
     color: #fff;
     display: inline-block;
+    margin-right: -25px;
 }
 
 .search {
