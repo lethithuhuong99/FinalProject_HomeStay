@@ -17,7 +17,7 @@ ul {
     width: 100%;
 }
 
-.explore .title {
+.title {
     font-size: 24px;
     font-weight: 800;
     color: #484848;
@@ -57,6 +57,7 @@ ul {
 .explore .card-title {
     margin-left: 10px;
 }
+
 
 .recommended-for-you {
     margin-bottom: 50px;
@@ -160,3 +161,147 @@ ul {
     word-wrap: break-word;
 }
 
+.top-rated-experience {
+    margin-bottom: 50px;
+}
+
+.top-rated-experience .top-rated-experience-container {
+    width: 100%;
+}
+
+.top-rated-experience .top-rated-table {
+    width: 100%;
+}
+
+.top-rated-experience .row {
+    width: 100%;
+}
+
+.top-rated-experience .top-rated-elements {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top-rated-experience .element {
+    border-radius: 5px;
+    width: 25%;
+    margin: 8px 10px;
+}
+
+.top-rated-experience .element-container {
+    width: 100%;
+}
+
+.top-rated-experience .element-container > img {
+    width: 100%;
+    height: 164px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+}
+
+.top-rated-experience .element-container > .city-name {
+    color: #767676;
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+}
+
+.top-rated-experience .element-container > .name {
+    color: #484848;
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 21px;
+    max-height: 42px;
+    margin-bottom: 4px;
+}
+
+.top-rated-experience .element-container > .price {
+    color: #767676;
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+.top-rated-elements .element-container > .stars-and-users-voted {
+    margin-right: 2px;
+}
+
+.stars-and-users-voted .score {
+    color: #008489;
+    display: inline;
+}
+
+.stars-and-users-voted i {
+    color: #008489;
+    display: inline;
+}
+
+.stars-and-users-voted p {
+    color: #767676;
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    display: inline;
+}
+
+
+.unique-homes {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.unique-homes .unique-homes-container {
+    width: 100%;
+}
+
+.unique-homes .homes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.unique-homes .home {
+    width: 33,33%;
+    width: calc(100% / 3);
+    margin: 0px 8px;
+}
+
+.unique-homes .home-container {
+    width: 100%;
+}
+
+.unique-homes .home-container > img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.unique-homes .home-container > h4 {
+    color: #767676;
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+}
+
+.unique-homes .home-container > h2 {
+    color: #484848;
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 21px;
+    max-height: 42px;
+    margin-bottom: 4px;
+}
+
+.unique-homes .home-container > p {
+    color: #767676;
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+}
