@@ -182,16 +182,38 @@ ul {
     width: 100%;
 }
 
-.top-rated-experience .top-rated-elements {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+
+
+@media only screen and (max-width: 768px) {
+     
+    .top-rated-experience .top-rated-elements {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .top-rated-experience .element {
+        border-radius: 5px;
+        margin: 1%;
+        flex: 0 0 48%;
+    }
 }
 
-.top-rated-experience .element {
-    border-radius: 5px;
-    width: 25%;
-    margin: 8px 10px;
+@media only screen and (min-width: 768px) {
+        
+    .top-rated-experience .top-rated-elements {
+        width: 100%;
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: flex-start;
+    }
+
+
+    .top-rated-experience .element {
+        border-radius: 5px;
+        width: 25%;
+        margin: 8px 10px;
+    }
 }
 
 .top-rated-experience .element-container {
@@ -264,8 +286,6 @@ ul {
 .unique-homes .unique-homes-container {
     width: 100%;
 }
-
-
 
 @media only screen and (max-width: 768px) {
     
