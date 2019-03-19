@@ -76,7 +76,6 @@ ul {
 
 .recommended-for-you .content {
     width: 100%;
-    height: 240px;
 }
 
 .recommended-for-you .title {
@@ -89,21 +88,53 @@ ul {
     margin-left: 8px;
 }
 
-.recommended-for-you .content ul {
-    width: 100%;
-    height: 100%;
+.recommended-for-you .card {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
 
-.recommended-for-you .card {
-    width: 20%;
-    border: 1px solid #F0F0F0;
-    border-radius: 3px;
-    margin: 0px 8px;
-    height: 100%;
+@media only screen and (max-width: 768px) {
+     
+    .recommended-for-you .content .cards {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
     
+    .recommended-for-you .card {
+        border: 1px solid #F0F0F0;
+        border-radius: 3px;
+        margin: 1%;
+        height: 240px; 
+        flex: 0 0 46%;   
+    }
+
+    .recommended-for-you .card:last-child {
+        display: none;
+    }
 }
+
+@media only screen and (min-width: 768px) {
+
+    .recommended-for-you .content .cards {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: flex-start;
+    }
+    
+    .recommended-for-you .card {
+        width: 20%;
+        border: 1px solid #F0F0F0;
+        border-radius: 3px;
+        margin: 0px 8px;
+        height: 100%;    
+    }
+}
+
 
 .recommended-for-you .card:nth-child(1) {
     background-image: url("../images/paris.jpg");
@@ -137,17 +168,15 @@ ul {
 
 .recommended-for-you .card-container {
     width: 100%;
-    height: 100%;
-    position: relative;
+    align-self: flex-end;
 }
 
 .recommended-for-you .card-content {
-    position: absolute;
-    bottom: 0;
     padding: 0px 24px 32px 24px;
 }
 
 .recommended-for-you .card-content h3 {
+    width: 100%;
     text-align: center;
     font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 18px;
@@ -157,6 +186,7 @@ ul {
 }
 
 .recommended-for-you .card-content p {
+    width: 100%;
     text-align: center;
     font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 14px;
