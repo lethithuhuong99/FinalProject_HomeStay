@@ -87,7 +87,7 @@ strong {
 
 .information .icon-information {
     display: flex;
-    /* flex-flow: row wrap; */
+    flex-flow: row wrap;
     align-content: flex-start;
     padding-bottom: 24px;
 }
