@@ -255,6 +255,7 @@ ul {
 }
 
 
+
 .unique-homes {
     width: 100%;
     margin-bottom: 50px;
@@ -264,17 +265,37 @@ ul {
     width: 100%;
 }
 
-.unique-homes .homes {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+
+
+@media only screen and (max-width: 768px) {
+    
+    .unique-homes .homes {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .unique-homes .home {
+        width: 100%;
+        padding-bottom: 30px;
+    }
 }
 
-.unique-homes .home {
-    width: 33,33%;
-    width: calc(100% / 3);
-    margin: 0px 8px;
-}
+@media only screen and (min-width: 768px) {
+    
+    .unique-homes .homes {
+        width: 100%;
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: flex-start;
+    }
+
+    .unique-homes .home {
+        width: 33,33%;
+        width: calc(100% / 3);
+        margin: 0px 8px;
+    }
+} 
 
 .unique-homes .home-container {
     width: 100%;
