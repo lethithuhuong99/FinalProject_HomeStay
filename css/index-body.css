@@ -41,11 +41,15 @@ ul {
     justify-content: flex-start;
 }
 
+.explore .card {
+    overflow: hidden;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 992px) {
     .explore .card {
         flex: 0 0 48%;
-        border: 1px solid #F0F0F0;
-        border-radius: 3px;
         margin-right: 1%;
         margin-top: 1%;
     }
@@ -55,9 +59,8 @@ ul {
    
     .explore .card {
         width: 25%;
-        border: 1px solid #F0F0F0;
-        border-radius: 3px;
         margin: 0px 8px;
+        height: 80px;
     }
 }
 
@@ -125,6 +128,12 @@ ul {
     justify-content: center;
 }
 
+.recommended-for-you .card {
+    overflow: hidden;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 992px) {
      
     .recommended-for-you .content .cards {
@@ -134,9 +143,7 @@ ul {
         flex-wrap: wrap;
     }
     
-    .recommended-for-you .card {
-        border: 1px solid #F0F0F0;
-        border-radius: 3px;
+    .recommended-for-you .card {        
         margin-left: 1%;
         height: 240px; 
         flex: 0 0 48%;
@@ -160,8 +167,6 @@ ul {
     
     .recommended-for-you .card {
         width: 20%;
-        border: 1px solid #F0F0F0;
-        border-radius: 3px;
         margin: 0px 8px;
         height: 100%;    
     }
@@ -244,18 +249,23 @@ ul {
     width: 100%;
 }
 
+.top-rated-experience .top-rated-elements {
+    width: 100%;
+    display: flex;
+}
 
+.top-rated-experience .element {
+    overflow: hidden;
+    border-radius: 5px;
+}
 
 @media only screen and (max-width: 768px) {
      
     .top-rated-experience .top-rated-elements {
-        width: 100%;
-        display: flex;
         flex-wrap: wrap;
     }
 
     .top-rated-experience .element {
-        border-radius: 5px;
         margin: 1%;
         flex: 0 0 48%;
     }
@@ -264,15 +274,12 @@ ul {
 @media only screen and (min-width: 768px) {
         
     .top-rated-experience .top-rated-elements {
-        width: 100%;
-        display: flex;
         flex-wrap: row wrap;
         justify-content: flex-start;
     }
 
 
     .top-rated-experience .element {
-        border-radius: 5px;
         width: 25%;
         margin: 8px 10px;
     }
@@ -386,6 +393,7 @@ ul {
 .unique-homes .home-container > img {
     width: 100%;
     border-radius: 3px;
+    margin-bottom: 2%;
 }
 
 .unique-homes .home-container > h4 {
