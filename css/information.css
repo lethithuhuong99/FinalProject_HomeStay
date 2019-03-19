@@ -1,0 +1,479 @@
+.body {
+  max-width: 1190px;
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 30px;
+  padding-top: 30px;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.part-container {
+  display: flex;
+}
+
+.left-side {
+  width: calc(100% / 3) ;
+  height: 100%;
+  margin-right: 24px;
+}
+
+.left-side h2 {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #484848;
+}
+
+.left-side-container {
+  width: 100%;
+  padding-right: 24px;
+}
+
+.right-side {
+  width: calc(200% / 3);
+  height: 100%;
+  margin-left: 16px;
+}
+
+.breaking-line {
+  border: 1px solid #EBEBEB;
+}
+
+.day-trip-introduction {
+  height: 100%;
+  width: 100%;
+}
+
+/* bat dau tu day */
+/*
+* {box-sizing:border-box}*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container img{
+  width: 100%;
+  max-height: 100%;
+}
+
+/* Hide the images by default */
+.slideshow-container .mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.slideshow-container .prev,
+.slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.slideshow-container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.slideshow-container .prev:hover,
+.slideshow-container .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.slideshow-container .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.slideshow-container .numbertext {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#introduction-paragraph-1 h5 {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #484848;
+}
+
+#introduction-paragraph-1 h1 {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-weight: bold;
+  font-size: 46px;
+  margin-top: 5px;
+  margin-bottom: 24px;
+  color: #484848;
+}
+
+#icon-map-content {
+  color: #008489;
+}
+
+.icon {
+  margin-top: 12px;
+  font-family: var(--font-font_family, Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif);
+}
+
+.icon div {
+  display: inline-block;
+  position: relative;
+}
+
+.icon i {
+  position: absolute;
+  color: #484848;
+  font-size: 18px;
+}
+
+.icon p {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  color: #484848;
+  font-size: 18px;
+  padding-left: 32px;
+}
+
+
+#paragraph-2 {
+  margin-top: -16px;
+}
+
+#icon-cup-rated {
+  display: table
+}
+
+#icon-cup-rated img {
+  height: 40px;
+  width: 40px;
+  margin-right: 8px;
+}
+
+#icon-cup-rated .overrall-rated {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: -32px;
+}
+#icon-cup-rated .overrall-rated p {
+  padding-left: 0px;
+}
+
+
+#paragraph-3 h3,
+#paragraph-4 h3,
+#paragraph-5 h3,
+#paragraph-6 h3,
+#paragraph-7 h3 {
+  margin-bottom: 16px;
+  color: #484848;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#paragraph-3 .content,
+#paragraph-4 .content,
+#paragraph-5 .content,
+#paragraph-6 .content,
+#paragraph-7 .content {
+  width: 80%;
+  color: #484848;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  word-wrap: break-word;
+  line-break: auto;
+  white-space: pre-line;
+  text-align: justify;
+}
+
+
+
+.guest-photos .images-collection {
+  width: 100%;
+  padding-bottom: 14px;
+}
+
+.guest-photos .flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.guest-photos .flex-item {
+  width: calc(100% / 3);
+  margin: 5px;
+}
+
+.guest-photos .flex-item img {
+  height: 250px;
+  width: 100%;
+  margin-right: 16px;
+}
+
+#show-more-guest-photos {
+  color: #006C70;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+
+#score-and-star {
+  margin-top: 16px;
+}
+
+#score-and-star h3 {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  margin-right: 16px;
+  display: inline-block;
+  color: #484848;
+}
+
+.star-collection {
+  display: inline-block;
+}
+
+.star-collection i {
+  color: #008489;
+}
+
+.user-review {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.user-review .user-avatar {
+  border-radius: 50%;
+  margin-top: 0px;
+  width: 48px;
+  height: 48px;
+}
+
+.user-review .info-and-star {
+  margin-left: 16px;
+}
+
+.user-review h4 {
+  display: inline;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #484848;
+}
+
+.user-review span {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #484848;
+}
+
+.user-review .star-collection {
+  margin-top: 4px;
+}
+
+.content-review {
+  margin-right: 50px;
+}
+
+.content-review p {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #484848;
+  line-height: 23px;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+
+#map-google {
+  position: relative;
+}
+
+#map-google h2 {
+  margin: 0px;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #484848;
+  line-height: 23px;
+}
+
+#map-google p {
+  margin-top: 16px;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #484848;
+  line-height: 23px;
+}
+
+.where-we-will-be {
+  float: left;
+  background-color: #fff;
+  display: table;
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  border-radius: 5px;
+}
+
+#map-google .container {
+  max-width: 360px;
+  padding: 24px;
+  display: table-cell;
+}
+
+#maps iframe {
+  width: 100%;
+  height: 600px;
+}
+
+
+.upcoming-container {
+  border: 1px solid #EBEBEB;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.day-trip-upcoming .upcoming-container p {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #484848;
+  line-height: 23px;
+}
+
+.day-trip-upcoming .upcoming-container p:first-child {
+  font-size: 18px;
+}
+
+
+.rules-container {
+  width: 100%;
+
+}
+
+.rules-container ul {
+   display: flex;
+}
+
+.rules-container li {
+  margin: 0px 12px;
+}
+
+.rules-container h4 {
+  margin-bottom: 16px;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #484848;
+}
+
+.rules-container p {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  color: #484848;
+  margin-bottom: 24px;
+}
+
+#introduction-paragraph-1 h1{
+  font-size: 28px;
+}
+@media screen and (min-width: 576px) {
+    #introduction-paragraph-1 h1{
+      font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #introduction-paragraph-1 h1{
+      font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #introduction-paragraph-1 h1{
+      font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #introduction-paragraph-1 h1{
+      font-size: 47px;
+    }
+}

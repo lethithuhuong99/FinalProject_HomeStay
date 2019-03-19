@@ -85,14 +85,14 @@ strong {
     line-height: 18px;
 }
 
-.information .icon {
+.information .icon-information {
     display: flex;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     align-content: flex-start;
     padding-bottom: 24px;
 }
 
-.information .icon i {
+.information .icon-information i {
     font-size: 18px;
     width: 18px;
     height: 18px;
@@ -122,6 +122,5 @@ strong {
     .hosting,
     .information {
         margin-top: 20px;
-    }
-    
+    }    
 }

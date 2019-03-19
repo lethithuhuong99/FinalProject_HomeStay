@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/information-header.css">
+    <link rel="stylesheet" type="text/css" href="./css/information.css">
+    <link rel="stylesheet" type="text/css" href="./css/footer.css">
+
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="menu-bar">
+
+          <div class="top-left">
+            <div class="logo">
+              <i class="fas fa-home fa-3x" id="logo"></i>
+            </div>
+
+            <div class="search">
+              <div class="search-container">
+                <i class="fa fa-search" id="search-icon"></i>
+                <label id="search-label">Search...</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="top-right">
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Sign in</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Become a host</a></li>
+            </ul>
+          </div>
+
+          <div class="clear"></div>
+
+          <div class="breaking-paragraph" style="margin: 10px 0px 0px 0px;">
+            <div class="breaking-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="body">
+      <div class="container">
+        <div class="day-trip-introduction">
+          <div class="part-container">
+            <div class="left-side" id="left-side-introduction">
+              <div class="left-side-container" id="left-side-introduction-container">
+                <div class="slideshow-container">
+                  <!-- Full-width images with number and caption text -->
+                  <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./images/portugal1.jpg">
+                    <div class="text">Portugal</div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./images/portugal2.jpg">
+                    <div class="text">Portugal</div>
+                  </div>
+
+                  <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./images/portugal3.jpg">
+                    <div class="text">Portugal</div>
+                  </div>
+
+                  <!-- Next and previous buttons -->
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center; margin-top: 15px;">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="right-side" id="right-side-introduction">
+              <div class="right-side-container" id="right-side-introduction-container">
+                <div id="introduction-paragraph-1">
+                  <h5>DAY TRIP</h5>
+                  <h1> This is Sintra - a DAY to Remember! </h1>
+
+                  <div class="icon" id="icon-map">
+                    <div class="icon-container">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <p><a id="icon-map-content" href="#maps">Lisbon</a></p>
+                    </div>
+                  </div>
+
+                  <div class="icon">
+                    <div class="icon-container">
+                      <i class="far fa-clock"></i>
+                      <p>8.5 hours total</p>
+                    </div>
+                  </div>
+
+                  <div class="icon">
+                    <div class="icon-container">
+                      <i class="fas fa-archive"></i>
+                      <p>Snacks, Drinks, Equipment and Transportation</p>
+                    </div>
+                  </div>
+
+                  <div class="icon">
+                    <div class="icon-container">
+                      <i class="fas fa-comments"></i>
+                      <p>Offered in English</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="breaking-paragraph" style="margin: 40px 0px;">
+                  <div class="breaking-line"></div>
+                </div>
+
+                <div id="paragraph-2">
+                  <div class="icon" id="icon-cup-rated">
+                    <img src="https://a0.muscache.com/airbnb/static/9ee78aa12d1a51a64b1dc566a4391ba5.gif" alt="icon-cup">
+                    <div class="overrall-rated">
+                      <p>Over 510 people rated this experience 5 stars.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="breaking-paragraph" style="margin: 24px 0px 40px 0px;">
+                  <div class="breaking-line"></div>
+                </div>
+
+                <div id="paragraph-3">
+                  <h3>About your host</h3>
+                  <div class="content">
+                      Olá from Duarte  & Friends :)
+
+
+                      We don't like to brag about our experience because this all started with a 1st daytrip w/ foreign buddies - 6 years ago - to a place I called home for as long as I remember – Sintra!  (my family has farms in the forest for 100 years)
+
+
+                      After that day, I realized that more than a tour I could provide an unforgettable day between friends with simply wonderful moments…
+                  </div>
+                </div>
+
+                <div class="breaking-paragraph" style="margin: 40px 0px;">
+                  <div class="breaking-line"></div>
+                </div>
+
+                <div id="paragraph-4">
+                  <h3>What we’ll do</h3>
+                  <div class="content">
+                    Hi Everyone, we are Duarte & Friends !
+
+
+                    IF you like to be TOURISTS but also LOVE TO "DIVE" INTO THE SMALL AND UNTOURISTY PLACES (not missing the Touristy ones too!) and FEEL LIKE A LOCAL... this Experience IS FOR YOU!
+
+
+                    Famous for Culture and unique landscapes, SINTRA is a MUST, too EPIC to be missed! From a Freemason Palace to a stunning WEST COAST, ending up in beautiful WOODS that will remind you of "LORD OF THE RINGS", Sintra is more than what everyone thinks... That's why we started a small Company - "Keep it Local Tours"!
+                  </div>
+
+                </div>
+
+                <div class="breaking-paragraph" style="margin: 40px 0px;">
+                  <div class="breaking-line"></div>
+                </div>
+
+                <div id="paragraph-5">
+                  <h3>What else you should know</h3>
+                  <div class="content">
+                    Palace Tickets not includ. but 1h Guided Tour inside is!
+
+
+                    Jacket, towel & swimsuit
+
+
+                    If the experience is full contact us anyways, we maybe can make it work :)
+
+
+                    We love FAMILIES w/ kids - Message us!
+                  </div>
+                </div>
+
+                <div class="breaking-paragraph" style="margin: 40px 0px;">
+                  <div class="breaking-line"></div>
+                </div>
+
+                <div id="paragraph-6">
+                  <h3>What I’ll provide</h3>
+                  <div class="content">
+                    Water and a little surprise at lunch for all!
+
+
+                    Transportation
+
+
+                    AWESOME GUIDED TOUR in Regaleira Palace (Tickets excluded ) A/C | Insurances | Jackets & Coolest MUSIC ONBOARD - trust us!
+
+
+                    Traditional snac
+                  </div>
+                </div>
+
+                <div class="breaking-paragraph" style="margin: 40px 0px;">
+                  <div class="breaking-line"></div>
+                </div>
+
+                <div id="paragraph-7">
+                  <h3>What to bring</h3>
+                  <div class="content">
+                    Some money for Palace & Best Lunch Ever
+
+
+                    Best mood ever + Endless energy + some SWEETS for the Guide (if they deserve!)
+
+
+                    Light jacket (weather is tricky sometimes) + towel + swimsuit for the beach (in summer only!)
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="breaking-paragraph" style="margin: 60px 0px 40px;">
+          <div class="breaking-line"></div>
+        </div>
+
+        <div class="guest-photos">
+          <div class="part-container">
+            <div class="left-side" id="left-side-guest-photos">
+              <div class="left-side-container">
+                <h2>Guest Photos</h2>
+              </div>
+            </div>
+
+            <div class="right-side" id="right-side-guest-photos">
+              <div class="right-side-container">
+                <div class="images-collection">
+                  <ul class = "flex-container">
+                    <li class = "flex-item">
+                      <img src="./images/i1.jpg" alt="Potugal">
+                    </li>
+                    <li class = "flex-item">
+                      <img src="./images/i2.jpg" alt="Potugal">
+                    </li>
+                    <li class = "flex-item">
+                      <img src="./images/i3.jpg" alt="Potugal">
+                    </li>
+                  </ul>
+                  <ul class = "flex-container">
+                    <li class = "flex-item">
+                      <img src="./images/i4.jpg" alt="Potugal">
+                    </li>
+                    <li class = "flex-item">
+                      <img src="./images/i5.jpg" alt="Potugal">
+                    </li>
+                    <li class = "flex-item">
+                      <img src="./images/i6.jpg" alt="Potugal">
+                    </li>
+                  </ul>
+                </div>
+                <h2 id="show-more-guest-photos">Show all guest photos</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="breaking-paragraph" style="margin: 60px 0px 40px 0px;">
+          <div class="breaking-line"></div>
+        </div>
+
+        <div class="guest-reviews">
+          <div class="part-container">
+            <div class="left-side" id="left-side-guest-reviews">
+              <div class="left-side-container">
+                <h2>Guest Reviews</h2>
+                <div id="score-and-star">
+                  <h3>4.92</h3>
+                  <div class="star-collection">
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                    <i class="fa fa-star checked"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="right-side" id="right-side-guest-reviews">
+              <div class="right-side-container">
+                <div class="review-collection">
+                  <ul>
+                    <li class="review">
+                      <div class="user-review">
+                        <img class="user-avatar" src="./images/people1.jpg" alt="feedback">
+                        <div class="info-and-star">
+                          <h4 class="user-name">Mina</h4>
+                          <span class="time-review">March, 2019</span>
+                          <div class="star-collection">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content-review">
+                        <p>We loved this tour and our group so much! Our guide Ricardo was so fun and knowledgeable, he made us all comfortable right from the start. The tour itself takes you to amazing and beautiful places that it would be so hard to see on your own. I highly recommend this tour. Thank you for a wonderful day!</p>
+                      </div>
+
+                      <div class="breaking-paragraph" style="margin: 32px 0px;">
+                        <div class="breaking-line"></div>
+                      </div>
+                    </li>
+
+                    <li class="review">
+                      <div class="user-review">
+                        <img class="user-avatar" src="./images/people2.jpg" alt="feedback">
+                        <div class="info-and-star">
+                          <h4 class="user-name">Anna</h4>
+                          <span class="time-review">March, 2019</span>
+                          <div class="star-collection">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content-review">
+                        <p>This experience is an absolute must if you visit Lisbon. Duarte’s friend Ricardo was my host. He is knowledgeable, created a good vibe, and did an absolute exceptional job in guiding us around, and at many times letting us explore Sintra by ourselves to take in the breath taking views. The meal (which doesn’t come included in the price as clearly stated) was absolutely delicious! One of the best I have ever had - I’m not kidding. Book this trip if you want a special memory that you’ll never forget :).</p>
+                      </div>
+
+                      <div class="breaking-paragraph" style="margin: 32px 0px;">
+                        <div class="breaking-line"></div>
+                      </div>
+                    </li>
+
+                    <li class="review">
+                      <div class="user-review">
+                        <img class="user-avatar" src="./images/people3.jpg" alt="feedback">
+                        <div class="info-and-star">
+                          <h4 class="user-name">Min</h4>
+                          <span class="time-review">March, 2019</span>
+                          <div class="star-collection">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content-review">
+                        <p>Our guide, Ricardo, was amazing! Our day was full of adventure that we couldn’t have gotten from anywhere else. Our group was like a bunch of roadtripping friends by the end of the day. Go on this tour if you have time for a day trip! You won’t regret it!</p>
+                      </div>
+
+                      <div class="breaking-paragraph" style="margin: 32px 0px;">
+                        <div class="breaking-line"></div>
+                      </div>
+                    </li>
+
+                    <li class="review">
+                      <div class="user-review">
+                        <img class="user-avatar" src="./images/people4.jpg" alt="feedback">
+                        <div class="info-and-star">
+                          <h4 class="user-name">Nick</h4>
+                          <span class="time-review">March, 2019</span>
+                          <div class="star-collection">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content-review">
+                        <p>Such a unique experience! I was hoping to spend a day in Sintra, and since I was traveling alone, this day trip was perfect! Duarte was extremely friendly and knowledgeable, and he kept us laughing throughout the tour. This was the most excellent way to find the best views and foods in Sintra!</p>
+                      </div>
+
+                      <div class="breaking-paragraph" style="margin: 32px 0px;">
+                        <div class="breaking-line"></div>
+                      </div>
+                    </li>
+
+                    <li class="review">
+                      <div class="user-review">
+                        <img class="user-avatar" src="./images/people5.jpg" alt="feedback">
+                        <div class="info-and-star">
+                          <h4 class="user-name">Mike</h4>
+                          <span class="time-review">March, 2019</span>
+                          <div class="star-collection">
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content-review">
+                        <p>In my opinion, this is the only way to experience Sintra. Duarte is a wonderful person with an amazing passion for what he does. This is more than his job, it’s his home and his life. He has a deep respect for this place and shares an unbelievable experience with everyone on his tour. Instead of long lines and big crowds, this tour allows you to enjoy a stunningly beautiful place in a relaxed, unique way. I can’t say enough positive things to do this tour justice. Just book it & find out for yourself!</p>
+                      </div>
+
+                      <div class="breaking-paragraph" style="margin: 32px 0px;">
+                        <div class="breaking-line"></div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="map">
+          <div class="day-trip" id="map-google">
+            <div class="where-we-will-be">
+              <div class="container">
+                <h2>Where we’ll be</h2>
+                <p>- Regaleira Palace (Tickets NOT incl. but we OFFER you an EPIC GUIDED TOUR inside!) - Small villages - Lunch in a local restaurant near the beach - Adraga Beach (we go to water or just have a nice walk :) ) - Cabo da Roca (Most Western Point Europe Mainland) - Our secret Countryhouse in the WOODS or Peninha Area - Gorgeuous Forest in the Natural Park - Last tasty surprise ! (We´ll see all other monuments from outside too, if the weather allows)</p>
+              </div>
+            </div>
+            <div id="maps">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99580.03468337884!2d-9.23024384261992!3d38.74360570332658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2zTGlzYm9uLCBC4buTIMSQw6BvIE5oYQ!5e0!3m2!1svi!2s!4v1552495059991" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="breaking-paragraph" style="margin: 60px 0px;">
+          <div class="breaking-line"></div>
+        </div>
+
+        <div class="day-trip-upcoming">
+          <div class="part-container">
+            <div class="left-side" id="left-side-upcoming">
+              <div class="left-side-container" id="left-side-upcoming-container">
+                <div class="title-container">
+                  <h2>Upcoming availability</h2>
+                </div>
+
+              </div>
+            </div>
+            <div class="right-side" id="right-side-upcoming">
+              <div class="right-side-container" id="right-side-upcoming-container">
+                <div class="upcoming-container">
+                  <p>Mon, Mar 18  | 9:00 AM – 5:30 PM</p>
+                  <p>₫1,670,085 per person</p>
+                  <p>2 of 8 spots left</p>
+
+                  <div class="breaking-paragraph" style="margin: 20px 0px;">
+                    <div class="breaking-line"></div>
+                  </div>
+
+                  <div class="icon" id="icon-cup-rated">
+                    <img src="https://a0.muscache.com/airbnb/static/9ee78aa12d1a51a64b1dc566a4391ba5.gif" alt="icon-cup">
+                    <div class="overrall-rated">
+                      <p>Over 510 people rated this experience 5 stars.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="breaking-paragraph" style="margin: 60px 0px;">
+          <div class="breaking-line"></div>
+        </div>
+
+        <div class="dap-trip-rules">
+          <div class="part-container">
+            <div class="left-side" id="left-side-rules">
+              <div class="left-side-container" id="left-side-rules-container">
+                <div class="title-container">
+                  <h2>Keep these in mind</h2>
+                </div>
+
+              </div>
+            </div>
+            <div class="right-side" id="right-side-rules">
+              <div class="right-side-container" id="right-side-rules-container">
+                <div class="rules-container">
+                  <ul>
+                    <li>
+                      <h4>Cancellation policy</h4>
+                      <p>Any experience can be canceled and fully refunded within 24 hours of purchase. See cancellation policy.</p>
+
+                      <div class="breaking-paragraph" style="margin: 0px 0px 24px 0px;">
+                        <div class="breaking-line"></div>
+                      </div>
+
+                      <h4>Who can come</h4>
+                      <p>Guests ages 5 and up can attend.</p>
+                      <p>We also love FAMILIES with kids! - just send us a message for more info.</p>
+                    </li>
+                    <li>
+                      <h4>Group size</h4>
+                      <p>There are 16 spots available on this experience. Come to relax and enjoy different experience Activities</p>
+
+                      <div class="breaking-paragraph" style="margin: 0px 0px 24px 0px;">
+                        <div class="breaking-line"></div>
+                      </div>
+
+                      <h4>Alcohol</h4>
+                      <p>This experience includes alcohol. Only guests who meet the legal drinking age will be served alcoholic beverages.</p>
+
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-container">  
+        <div class="all-top">
+          <div class="goldenhost">
+            <div class="container">
+              <h4 class="heading">Golden Host</h4>
+              <ul class="goldenhostlist">
+                <li>Careers</li>
+                <li>Press</li>
+                <li>Policies</li>
+                <li>Help</li>
+                <li>Diversity & Belonging</li>
+              </ul>
+            </div>         
+          </div>
+
+          <div class="discover">
+            <div class="container">
+              <h4 class="heading">Discover</h4>
+              <ul class="discoverlist">
+                <li>Trust & Safety</li>
+                <li>Travel Credit</li>
+                <li>Gift Cards</li>
+                <li>Business Travel</li>
+                <li>Events
+                  <figure class="new">
+                    <figcaption>New</figcaption>
+                  </figure>
+                </li>
+                <li>Guidebooks</li>
+              </ul>
+            </div>          
+          </div>
+
+          <div class="hosting">
+            <div class="container">
+              <h4 class="heading">Hosting</h4>
+              <ul class="hostinglist">
+                <li>Why Host
+                  <figure class="new">
+                      <figcaption>New</figcaption>
+                  </figure>
+                </li>
+                <li>Hospitality</li>
+                <li>Responsible Hosting</li>
+                <li>Community Center</li>
+                <li>Open Homes
+                  <figure class="new">
+                    <figcaption>New</figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="information">
+            <div class="container">
+              <ul class="informationlist">
+                <li>
+                  <div class="icon-information">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                  </div>
+                </li>
+                <li>Terms</li>
+                <li>Private</li>
+                <li>Site Maps</li>
+              </ul>
+            </div>          
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="all-bottom">
+          <i class="fas fa-home"></i>
+          <div class="copyright">
+            <i class="far fa-copyright fa-xs"></i>
+            <strong>Golden Host</strong>
+          </div>          
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./scripts/information.js"></script>
+  </body>
+</html>
