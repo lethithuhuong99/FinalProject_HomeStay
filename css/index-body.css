@@ -6,6 +6,7 @@ ul {
     max-width: 1080px;
     padding: 48px 24px 0px 24px;
     margin: 0 auto;
+    border-bottom: 1px solid #EBEBEB;
 }
 
 .explore {
@@ -15,6 +16,10 @@ ul {
 
 .explore .content {
     width: 100%;
+}
+
+.breaking-line {
+    border: 1px solid #EBEBEB;
 }
 
 .title {
