@@ -32,34 +32,54 @@ ul {
     margin-left: 8px;
 }
 
-.explore .content ul {
+
+
+.explore .content .cards {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-.explore .card {
-    width: 25%;
-    border: 1px solid #F0F0F0;
-    border-radius: 3px;
-    margin: 0px 8px;
+@media only screen and (max-width: 992px) {
+    .explore .card {
+        flex: 0 0 48%;
+        border: 1px solid #F0F0F0;
+        border-radius: 3px;
+        margin-right: 1%;
+        margin-top: 1%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+   
+    .explore .card {
+        width: 25%;
+        border: 1px solid #F0F0F0;
+        border-radius: 3px;
+        margin: 0px 8px;
+    }
 }
 
 .explore .card-container {
-    display: table-row;
+    display: flex;
+    height: 100%;
 }
 
 .explore .card-image {
-    width: 96px;
+    width: calc(100% / 3);
     height: 100%;
 }
 
 .explore .card-content {
-    display: table-cell;
-    vertical-align: middle;
+    width: (200% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .explore .card-title {
+    align-self: center;
     margin-left: 10px;
 }
 
@@ -74,14 +94,14 @@ ul {
     margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
    
     .recommended-for-you .content {
         width: 100%;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
    
     .recommended-for-you .content {
         width: 100%;
@@ -105,7 +125,7 @@ ul {
     justify-content: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
      
     .recommended-for-you .content .cards {
         width: 100%;
@@ -117,9 +137,10 @@ ul {
     .recommended-for-you .card {
         border: 1px solid #F0F0F0;
         border-radius: 3px;
-        margin: 1%;
+        margin-left: 1%;
         height: 240px; 
-        flex: 0 0 46%;   
+        flex: 0 0 48%;
+        margin-bottom: 2%;   
     }
 
     .recommended-for-you .card:last-child {
@@ -127,7 +148,7 @@ ul {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
 
     .recommended-for-you .content .cards {
         width: 100%;
